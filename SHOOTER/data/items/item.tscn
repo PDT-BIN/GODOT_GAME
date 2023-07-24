@@ -1,0 +1,30 @@
+[gd_scene load_steps=6 format=3 uid="uid://c0cklsyq5o2vm"]
+
+[ext_resource type="Texture2D" uid="uid://ncc3a1dut4kd" path="res://image/items/orb2.png" id="1_i527j"]
+[ext_resource type="Script" path="res://data/items/item.gd" id="1_jwf6k"]
+[ext_resource type="Texture2D" uid="uid://b4ful68m61fpc" path="res://image/lights/textures/circle.png" id="2_vqhpg"]
+[ext_resource type="AudioStream" uid="uid://dgmurmskyovca" path="res://audio/item.mp3" id="4_ccknx"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7jt5v"]
+radius = 45.7056
+
+[node name="Item" type="Area2D"]
+collision_layer = 16
+script = ExtResource("1_jwf6k")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_7jt5v")
+
+[node name="ItemImage" type="Sprite2D" parent="."]
+position = Vector2(2, -1)
+texture = ExtResource("1_i527j")
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+energy = 0.5
+texture = ExtResource("2_vqhpg")
+texture_scale = 0.4
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_ccknx")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
