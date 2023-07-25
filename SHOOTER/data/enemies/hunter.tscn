@@ -54,6 +54,7 @@ joint_two_bone_idx = 9
 joint_two_bone2d_node = NodePath("Torso/BackLeftLeg/BackLeftClaw")
 
 [sub_resource type="SkeletonModificationStack2D" id="SkeletonModificationStack2D_rmumf"]
+resource_local_to_scene = true
 enabled = true
 modification_count = 4
 modifications/0 = SubResource("SkeletonModification2DTwoBoneIK_qsh5r")
@@ -184,6 +185,7 @@ collision_layer = 16
 shape = SubResource("CircleShape2D_dxiw0")
 
 [node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
+debug_enabled = true
 
 [node name="Timers" type="Node" parent="."]
 
@@ -331,7 +333,6 @@ scale = Vector2(-1, 1)
 texture = ExtResource("7_r7k55")
 
 [node name="Targets" type="Node2D" parent="."]
-metadata/_edit_lock_ = true
 
 [node name="FrontRight" type="Marker2D" parent="Targets"]
 position = Vector2(75, -225)

@@ -260,59 +260,62 @@ rotation = -1.5708
 position = Vector2(563, -435)
 metadata/_edit_lock_ = true
 
-[node name="Hunter_1" parent="Enemies" index="0" instance=ExtResource("12_rji2k")]
-position = Vector2(8184, -1152)
-
-[node name="Scout_1" parent="Enemies" index="1" instance=ExtResource("14_g1hjt")]
+[node name="Scout_1" parent="Enemies" index="0" instance=ExtResource("14_g1hjt")]
 position = Vector2(2349, 43)
 
-[node name="Scout_2" parent="Enemies" index="2" instance=ExtResource("14_g1hjt")]
+[node name="Scout_2" parent="Enemies" index="1" instance=ExtResource("14_g1hjt")]
 position = Vector2(2349, 1314)
 
-[node name="Scout_3" parent="Enemies" index="3" instance=ExtResource("14_g1hjt")]
+[node name="Scout_3" parent="Enemies" index="2" instance=ExtResource("14_g1hjt")]
 position = Vector2(459, 2916)
 
-[node name="Scout_4" parent="Enemies" index="4" instance=ExtResource("14_g1hjt")]
+[node name="Scout_4" parent="Enemies" index="3" instance=ExtResource("14_g1hjt")]
 position = Vector2(6663, 1026)
 
-[node name="Scout_5" parent="Enemies" index="5" instance=ExtResource("14_g1hjt")]
+[node name="Scout_5" parent="Enemies" index="4" instance=ExtResource("14_g1hjt")]
 position = Vector2(6076, 2969)
 
-[node name="Bug_1" parent="Enemies" index="6" instance=ExtResource("15_lqkxh")]
+[node name="Bug_1" parent="Enemies" index="5" instance=ExtResource("15_lqkxh")]
 position = Vector2(1420, 2018)
 
-[node name="Bug_2" parent="Enemies" index="7" instance=ExtResource("15_lqkxh")]
+[node name="Bug_2" parent="Enemies" index="6" instance=ExtResource("15_lqkxh")]
 position = Vector2(2103, 2317)
 
-[node name="Bug_3" parent="Enemies" index="8" instance=ExtResource("15_lqkxh")]
+[node name="Bug_3" parent="Enemies" index="7" instance=ExtResource("15_lqkxh")]
 position = Vector2(2861, 2210)
 
-[node name="Bug_4" parent="Enemies" index="9" instance=ExtResource("15_lqkxh")]
+[node name="Bug_4" parent="Enemies" index="8" instance=ExtResource("15_lqkxh")]
 position = Vector2(3416, 3267)
 
-[node name="Bug_5" parent="Enemies" index="10" instance=ExtResource("15_lqkxh")]
+[node name="Bug_5" parent="Enemies" index="9" instance=ExtResource("15_lqkxh")]
 position = Vector2(6342, 4378)
 
-[node name="Bug_6" parent="Enemies" index="11" instance=ExtResource("15_lqkxh")]
+[node name="Bug_6" parent="Enemies" index="10" instance=ExtResource("15_lqkxh")]
 position = Vector2(5253, -1133)
 
-[node name="Bug_7" parent="Enemies" index="12" instance=ExtResource("15_lqkxh")]
+[node name="Bug_7" parent="Enemies" index="11" instance=ExtResource("15_lqkxh")]
 position = Vector2(-492, 1153)
 
-[node name="Bug_8" parent="Enemies" index="13" instance=ExtResource("15_lqkxh")]
+[node name="Bug_8" parent="Enemies" index="12" instance=ExtResource("15_lqkxh")]
 position = Vector2(-1816, 2210)
 
-[node name="Bug_9" parent="Enemies" index="14" instance=ExtResource("15_lqkxh")]
+[node name="Bug_9" parent="Enemies" index="13" instance=ExtResource("15_lqkxh")]
 position = Vector2(-2841, 3523)
 
-[node name="Bug_10" parent="Enemies" index="15" instance=ExtResource("15_lqkxh")]
+[node name="Bug_10" parent="Enemies" index="14" instance=ExtResource("15_lqkxh")]
 position = Vector2(-652, 3534)
 
-[node name="Drone_1" parent="Enemies" index="16" instance=ExtResource("16_x5wie")]
+[node name="Drone_1" parent="Enemies" index="15" instance=ExtResource("16_x5wie")]
 position = Vector2(5350, 171)
 
-[node name="Drone_2" parent="Enemies" index="17" instance=ExtResource("16_x5wie")]
+[node name="Drone_2" parent="Enemies" index="16" instance=ExtResource("16_x5wie")]
 position = Vector2(5350, 3000)
+
+[node name="Hunter_1" parent="Enemies" index="17" instance=ExtResource("12_rji2k")]
+position = Vector2(8184, -1152)
+
+[node name="Hunter_2" parent="Enemies" index="18" instance=ExtResource("12_rji2k")]
+position = Vector2(8200, 0)
 
 [node name="Player" parent="." index="7"]
 position = Vector2(4300, 800)

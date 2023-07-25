@@ -13,6 +13,7 @@ var is_vulnerable: bool = true
 
 func hit():
 	if is_vulnerable:
+		is_vulnerable = false
 		health -= 10
 		$Timers/HitTimer.start()
 		if health <= 0:
