@@ -8,6 +8,7 @@
 [ext_resource type="AudioStream" uid="uid://blm2uhny6fap6" path="res://audio/explosion.wav" id="6_tmlop"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_yp77l"]
+resource_local_to_scene = true
 shader = ExtResource("2_mh1sf")
 shader_parameter/color = Color(1, 1, 1, 1)
 shader_parameter/alpha = 0.0

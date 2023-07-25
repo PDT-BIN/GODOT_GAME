@@ -36,6 +36,7 @@
 [ext_resource type="AudioStream" uid="uid://hw6ci2rdliuq" path="res://audio/organic_impact.mp3" id="34_46r00"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_mbltr"]
+resource_local_to_scene = true
 shader = ExtResource("2_mc10m")
 shader_parameter/color = Color(0.756863, 0.870588, 0.811765, 1)
 shader_parameter/alpha = 0.0
